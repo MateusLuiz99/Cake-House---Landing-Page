@@ -1,0 +1,236 @@
+*{
+    margin: 0 auto;
+    /* padding: 5px; */
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 5px;
+}
+body{
+    background-color: #FF0000;
+    color: white;
+    /* background: linear-gradient(0deg, rgba(250,243,4,0.10968137254901966) 0%, rgba(248,5,5,1) 22%); */
+
+}
+
+/*  Cabeçalho   */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.tittle{
+    position: relative;
+    margin-left: 50px;
+    flex-direction: column;
+    line-height: 20px;
+}
+.pink{
+    color: #FF00FF;
+    /* padding-left: 5px; */
+    margin-bottom: 8px;
+}
+.menu li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    font-size: 19px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+
+}
+.menu li a:hover{
+    color: yellow;
+    transition: 0.3s;
+}
+.btn-login{
+    position: relative;
+    margin-right: 50px;
+    padding: 10px;
+}
+.btn-login input{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    height: 55px;
+    width: 150px;
+    background: transparent;
+    font-size: 19px;
+    color: white;
+}
+.btn-login input:hover{
+    background-color: yellow;
+    transition: 1s;
+    color: black;
+}
+
+/*  Conteúdo principal   */
+.conteudo-principal h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+    line-height: 70px;
+    color: yellow;
+}
+.house-white{
+    color: white;
+}
+.conteudo-principal{
+    text-align: center;
+    line-height: 30px;
+    max-width: 1000px;
+    left: 40px;
+    font-size: 20px;
+}
+.cake-pink{
+    color: #FF00FF;
+}
+
+/*  Conteúdo sobre   */
+.sobre{
+    text-align: center;
+    margin-top: 50px;
+}
+.tt-sobre{
+    font-size: 40px;
+    color: yellow;
+}
+.sobre p{
+    font-size: 20px;
+    max-width: 1000px;
+    line-height: 30px;
+}
+
+/*      Conteúdo de Local    */
+.local-tab{
+    margin-top: 50px;
+}
+.local{
+    text-align: center;
+    margin-top: 50px;
+}
+.t-dec{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.tt-local{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: yellow
+}
+#ft-local{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/img/cake-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+#horario-tt{
+    text-align: end;
+    text-transform: uppercase;
+    margin-right: 60px;
+}
+.tab-local{
+    width: 1230px;
+    text-align: center;
+}
+.tab-local, td, th{
+    border: none;
+}
+th, span{
+    text-transform: uppercase;
+}
+#local{
+    text-align: left;
+}
+#horario{
+    text-align: end;
+}
+h1{
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*  Conteúdo de Decoração    */
+.tt-dec{
+    margin-top: 50px;
+    font-size: 40px;
+    color: yellow
+}
+.cake-personalizado-topo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+.cake-personalizado-topo img{
+    width: 55%;
+    align-items: center;
+    height: 270px;
+    padding-right: 200px;
+}
+.cake-personalizado-topo p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.cake-personalizado-topo span{
+    text-transform: lowercase;
+    color: yellow;
+}
+.cakes-persons{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+.cake-perso{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 115%;
+}
+.cake-perso, .cake-img{
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+#cake-niver{
+    background-image: url(./img/cake-aniversario-infantil.jpg);
+    width: 240px;
+    height: 230px;
+}
+#cake-casa{
+    background-image: url(./img/cake-casamento.jpg);
+    width: 250px;
+    height: 240px;
+}
+#cake-pet{
+    background-image: url(./img/cake-pets.jpg);
+    width: 250px;
+    height: 240px;
+}
+
+/*  Conteúdo de Footer (Rodapé)   */
+footer{
+    border-top: 1px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.ftr-tt{
+    margin-top: 50px;
+    color: yellow
+}
